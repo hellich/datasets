@@ -1,0 +1,239 @@
+{
+  "helmi_flights_carriers" : {
+    "mappings" : {
+      "properties" : {
+        "ActualElapsedTime" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "AirTime" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "ArrDelay" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "ArrTime" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "CRSArrTime" : {
+          "type" : "long"
+        },
+        "CRSDepTime" : {
+          "type" : "long"
+        },
+        "CRSElapsedTime" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "CancellationCode" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "Cancelled" : {
+          "type" : "long"
+        },
+        "CarrierDelay" : {
+          "type" : "long"
+        },
+        "Code" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "DayOfWeek" : {
+          "type" : "long"
+        },
+        "DayofMonth" : {
+          "type" : "long"
+        },
+        "DepDelay" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "DepTime" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "Description" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "Dest" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "Distance" : {
+          "type" : "long"
+        },
+        "Diverted" : {
+          "type" : "long"
+        },
+        "FlightNum" : {
+          "type" : "long"
+        },
+        "LateAircraftDelay" : {
+          "type" : "long"
+        },
+        "Month" : {
+          "type" : "long"
+        },
+        "NASDelay" : {
+          "type" : "long"
+        },
+        "Origin" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "SecurityDelay" : {
+          "type" : "long"
+        },
+        "TailNum" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "TaxiIn" : {
+          "type" : "long"
+        },
+        "TaxiOut" : {
+          "type" : "long"
+        },
+        "UniqueCarrier" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "WeatherDelay" : {
+          "type" : "long"
+        },
+        "Year" : {
+          "type" : "long"
+        },
+        "airport" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "city" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "country" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "iata" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "lat" : {
+          "type" : "float"
+        },
+        "location" : {
+          "type" : "geo_point"
+        },
+        "long" : {
+          "type" : "float"
+        },
+        "state" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        }
+      }
+    }
+  }
+}
